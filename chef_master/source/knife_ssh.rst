@@ -60,6 +60,8 @@ This subcommand has the following options:
 ``-P PASSWORD``, ``--ssh-password PASSWORD``
    The SSH password. This can be used to pass the password directly on the command line. If this option is not specified (and a password is required) knife prompts for the password.
 
+   New in Chef client 12.15.
+
 ``SEARCH_QUERY``
    The search query used to return a list of servers to be accessed using SSH and the specified ``SSH_COMMAND``. This option uses the same syntax as the search subcommand.
 
@@ -68,6 +70,8 @@ This subcommand has the following options:
 
 ``-t SECONDS``, ``--ssh-timeout SECONDS``
    The amount of time (in seconds) to wait for an SSH connection time out.
+
+   New in Chef client 12.9.
 
 ``--tmux-split``
    Split the Tmux window. Default value: ``false``.
@@ -180,4 +184,3 @@ where ``screen`` is one of the following values: ``cssh``, ``interactive``, ``ma
    you need the rb-appscript gem to use knife ssh macterm.
    `(sudo) gem    install rb-appscript` to install
    ERROR: LoadError: cannot load such file -- appscript
-

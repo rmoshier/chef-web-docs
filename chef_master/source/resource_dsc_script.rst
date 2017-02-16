@@ -27,6 +27,8 @@ Many DSC resources are comparable to built-in Chef resources. For example, both 
 
 .. warning:: The **dsc_script** resource  may not be used in the same run-list with the **dsc_resource**. This is because the **dsc_script** resource requires that ``RefreshMode`` in the Local Configuration Manager be set to ``Push``, whereas the **dsc_resource** resource requires it to be set to ``Disabled``.
 
+Changed in Chef client 12.5 to include ``ps_credential`` helper.
+
 Syntax
 =====================================================
 .. tag resource_dsc_script_syntax
@@ -295,6 +297,8 @@ For example, assuming the ``CertificateID`` is configured in the local configura
 
 .. end_tag
 
+New in Chef client 12.5.
+
 Examples
 =====================================================
 The following examples demonstrate various approaches for using resources in recipes. If you want to see examples of how Chef uses resources in recipes, take a closer look at the cookbooks that Chef authors and maintains: https://github.com/chef-cookbooks.
@@ -498,4 +502,3 @@ The **dsc_script** resource can be used with other resources. The following exam
    end
 
 .. end_tag
-

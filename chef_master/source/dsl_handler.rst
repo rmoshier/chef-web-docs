@@ -15,6 +15,8 @@ Use the Handler DSL to attach a callback to an event. If the event occurs during
 
 .. end_tag
 
+New in Chef client 12.5.
+
 on Method
 =====================================================
 .. tag dsl_handler_method_on
@@ -213,7 +215,7 @@ The following table describes the events that may occur during a chef-client run
 .. end_tag
 
    New in Chef client 12.16, ``:attribute_changed``
-   
+
 Examples
 =====================================================
 The following examples show ways to use the Handler DSL.

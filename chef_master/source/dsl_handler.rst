@@ -15,7 +15,7 @@ Use the Handler DSL to attach a callback to an event. If the event occurs during
 
 .. end_tag
 
-New in Chef client 12.5.
+New in Chef client 12.5
 
 on Method
 =====================================================

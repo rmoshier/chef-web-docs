@@ -11,6 +11,8 @@ The following options can be run with all knife subcommands and plug-ins:
 ``--chef-zero-port PORT``
    The port on which chef-zero listens.
 
+   New in Chef Client 12.0.
+
 ``-d``, ``--disable-editing``
    Prevent the $EDITOR from being opened and accept data as-is.
 
@@ -58,4 +60,3 @@ The following options can be run with all knife subcommands and plug-ins:
 
 ``-z``, ``--local-mode``
    Run the chef-client in local mode. This allows all commands that work against the Chef server to also work against the local chef-repo.
-
